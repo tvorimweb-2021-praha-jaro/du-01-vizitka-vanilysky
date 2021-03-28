@@ -1,24 +1,6 @@
-<!--
-Vytvoř osobní vizitku se:
-
-- jménem,
-- krátkým odstavcem o sobě,
-- odkazem na svůj profil,
-- vlastní fotkou (aby tě lektoři poznali),
-- odkazem na svůj e-mail.
-
-Vizitku ostyluj pomocí CSS:
-
-- Nastav barvu pozadí, popředí
-- Uprav velikost písma, zarovnání textu
-- Přidej si vlastní písmo např. z Google Fonts
-- Další vlastnosti dle vlastního uvážení
-
-Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
--->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,29 +9,129 @@ Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
-    <!--prosím prosím, snažila jsem se přidat tento typ písma z google fonts, ale mě to prostě nějak nejde a vůbec nevím jak se to dělá. V CSS jsem tam pak vybrala nějaký klasický ze seznamu, protože tento tam nebyl. Tak pokud byste mi prosím pak v rámci oprav napsali jak to udělat, aby to fungovalo, byla bych moc ráda, děkuji.-->
+
 </head>
+
 <body>
 
-<header class="hlavicka">
-    <h1>Lucie Truhlářová</h1>
-</header>
-<section>
-    <h2>Kdo jsem:</h2>
+    <header class="hlavicka">
+        <h1>Lucie Truhlářová</h1>
 
-    <img src="ja.jpg" alt="Já">
+    </header>
 
-    <p>Obyčejná <strong>holka, co chce pořád změnit svět.</strong> Žiju ve světě snů a fantazie, ale v reálu už je to se mnou těžší. Líbí se mi umění - tak trochu maluju, tak trochu píšu knihu. Cvičím jógu, posiluju a začínám běhat :) Občas až moc bojuju za pravdu a nesnáším nespravedlnost. Miluju jazz a barový piano. Je mi 29 a mám dvě malé děti.</p>
+    <main>
+        <nav>
+            <ul>
+                <li class="nav-item">
+                    <a href="#kdojsem">Kdo jsem</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#malujusi">Maluju si</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#joga">Jóga a já</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#galerie">Galerie</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#kontakt">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
 
-    <p>Teď se učím tvořit web a programovat.A proč? <em>Protože abyste mohli žít ve snu, musíte kousek těch snů dostat do reality a něco pro to udělat.</em> Taky se mi líbí, že je to takové kouzlení prstama - udělám na klávesnici "čáry máry", zadám kouzelné kódy a buď vznikne nebo nevznikne něco krásného. </p>
-    
-    <p>Moje <strong>nejhorší obava?</strong> - čím dál tím víc si začínám uvědomovat, že toho vím strašně málo a myslím na <strong>Sokratovo: "Vím, že nic nevím".</strong> A je toho tolik, co bych chtěla ještě vědět a znát. Nechci žít život jako "ovce" (práce - tv - práce - tv,...), chci ho opravdu žít. Chci se učit novým věcem a plnit si sny. Tak jsem tu, tady stojím, nebo spíš sedím za notebookem, a snažím se splnit si něco, co pro někoho může znamenat strašně málo, ale pro mě strašně moc.</p>
-</section>
-<section class="kontakt">
-    <h2>Kontaktujte mě na:</h2>
 
-    <a href="https://www.facebook.com/profile.php?id=100007679329119" target="_blank">Facebook</a><br>
-    <a href="mailto:luctruh@gmail.com">Email</a>
-</section>
+        <section class="kdojsem" id="kdojsem">
+
+            <h2>Kdo jsem:</h2>
+
+            <img src="ja.jpg" alt="Úsměv mezi růžemi a motýli">
+
+            <p>Obyčejná <strong>holka, co chce pořád změnit svět.</strong> Žiju ve světě snů a fantazie, ale v reálu už
+                je
+                to se mnou těžší. Líbí se mi umění - tak trochu maluju, tak trochu píšu knihu. Cvičím jógu, posiluju a
+                začínám běhat :) Občas až moc bojuju za pravdu a nesnáším nespravedlnost. Miluju jazz a barový piano. Je
+                mi
+                29 a mám dvě malé děti.</p>
+
+            <p>Teď se učím tvořit web a programovat.A proč? <em>Protože abyste mohli žít ve snu, musíte kousek těch snů
+                    dostat do reality a něco pro to udělat.</em> Taky se mi líbí, že je to takové kouzlení prstama -
+                udělám
+                na klávesnici "čáry máry", zadám kouzelné kódy a buď vznikne nebo nevznikne něco krásného. </p>
+
+            <p>Moje <strong>nejhorší obava?</strong> - čím dál tím víc si začínám uvědomovat, že toho vím strašně málo a
+                myslím na <strong>Sokratovo: "Vím, že nic nevím".</strong> A je toho tolik, co bych chtěla ještě vědět a
+                znát. Nechci žít život jako "ovce" (práce - tv - práce - tv,...), chci ho opravdu žít. Chci se učit
+                novým
+                věcem a plnit si sny. Tak jsem tu, tady stojím, nebo spíš sedím za notebookem, a snažím se splnit si
+                něco,
+                co pro někoho může znamenat strašně málo, ale pro mě strašně moc.</p>
+        </section>
+
+        <section class="malujusi" id="malujusi">
+
+            <h2>Maluju si</h2>
+
+            <p>Od malička si pořád něco maluju, čmárám a tvořím. Ať už jde o něco důležitějšího jako obraz na plátně či
+                jen
+                nadpis v sešitě nebo tvář nějaké ženy v časopise. Posledních pár let jsem se věnovala hlavně dětem a na
+                tvoření nezbylo tolik času, přesto jsem ale pár obrazů namalovala. Níže můžete vidět pár mých prací.
+                Některé
+                jsou z dob "kdysi dávno" a jiné zas z období posledních dvou let.</p>
+
+            <img src="tygrtvar.jpg" alt="Tvář tygra">
+            <img src="slunecnice.jpg" alt="Slunečnice">
+            <img src="tulipany.jpg" alt="Tulipány">
+            <img src="vlcimaky.jpg" alt="Vlčí máky">
+            <img src="popart.jpg" alt="Pop art">
+            <img src="tygr.jpg" alt="Tygr">
+
+        </section>
+
+        <section class="joga" id="joga">
+            <h2>Jóga a já</h2>
+
+            <p>K józe jsem přišla náhodou asi před 7 lety když jsem se přistěhovala do Prahy. Pár let jsme se jen
+                tak
+                oťukávaly a ikdyž se mi líbila, nějak moc jsem ji nevěnovala pozornost. Na plno jsem se do ní
+                pustila
+                asi
+                před 3 lety. Teď je mojí součástí a život bez ní, si nedokážu představit :).</p>
+
+
+            <img class="vrana" src="joga.jpg" alt="Vrána"><br>
+
+            <p class="p">◄ Pozice <strong>vrány</strong> nebo jak říkám já: "první fáze létání"</p>
+
+
+            <img class="luk" src="joga1.jpg" alt="Poloviční luk"><br>
+
+            <p class="l">Pozice <strong>polovičního luku</strong> z kleku ►</p>
+
+        </section>
+
+        <section class="galerie" id="galerie">
+            <h2>Galerie</h2>
+
+            <img src="modrevlasy.jpg" alt="Jednou takhle v modrých vlasech">
+            <img src="ja1.jpg" alt="Mm, to píše">
+            <img src="ja4.jpg" alt="Kdysi v letních šatech">
+            <img src="ja3.jpg" alt="Zrcadlové selfie">
+            <img src="ja2.jpg" alt="S kytarou šla bych světa kraj">
+            <img src="klobouk.jpg" alt="Štěstí nosí červenou">
+
+        </section>
+        <section class="kontakt" id="kontakt">
+            <h2>Kontaktujte mě na:</h2>
+
+            <a href="https://www.facebook.com/profile.php?id=100007679329119" target="_blank">Facebook</a><br>
+            <a href="mailto:luctruh@gmail.com">Email</a>
+        </section>
+
+    </main>
+    <footer>
+        <h3>Lucie 2021</h3>
+    </footer>
 </body>
+
 </html>

@@ -1,38 +1,3 @@
-h1 {
-    text-align: center;
-    font-size: 60px;
-    color: white;
-    margin: 0;
-}
-
-h2 {
-    font-size: 25px
-}
-
-body {
-    background-color: rgb(161, 227, 253);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    line-height: 1.5;
-    color: rgb(29, 33, 83);
-    
-}
-
-img {
-    float: right;
-    width: 280px;
-    border-radius: 20px 0 20px 20px;
-    margin: 0 0 0 30px;
-    border: 4px solid white;
-}
-
-section {
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    overflow: auto;
-}
 
 .hlavicka {
     background-image: url(barvy8.jpg);
@@ -42,6 +7,138 @@ section {
     background-size: cover;
 }
 
-.kontakt {
+nav li {
+    display: inline;
+}
+
+nav {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a {
+    padding: 0.5rem 0.5rem;
+    font-weight: 600;
+    background-color: rgb(243, 132, 197);
+    border: 3px solid rgb(246, 246, 250);
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: var(--primary-dark);
+    color: var(--primary);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
     margin: 0;
 }
+
+h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 60rem;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(161, 227, 253);
+    font-family:"Akaya Telivigala";
+    text-align: left;
+    line-height: 1.5;
+    color: rgb(29, 33, 83);
+    font-size: 17px;
+    
+}
+
+.kdojsem img {
+    float: right;
+    width: 280px;
+    border-radius: 20px 0 20px 20px;
+    margin: 0 0 0 30px;
+    border: 4px solid white;
+}
+
+.kdojsem {
+    background-color:rgb(126, 221, 245);
+    padding-bottom: 20px;
+
+}
+
+.malujusi img {
+    width: 32%;
+    height: 280px;
+    border: 4px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.malujusi {
+    padding-bottom: 20px;
+}
+
+
+.joga {
+    background-color:rgb(126, 221, 245);
+    display: flow-root;
+}
+
+.joga img {
+    height: 280px;
+    border: 4px solid white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.p {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.l {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.vrana {
+    border-radius: 0 20px 20px 20px;
+    float: left;
+}
+
+.luk {
+    border-radius: 20px 0 20px 20px;
+    float: right;
+}
+
+.galerie img {
+    width: 32%;
+    border-radius: 20px;
+    border: 4px solid whitesmoke;
+    height: 20%
+}
+
+section {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.kontakt {
+    background-color: rgb(126, 221, 245);
+    padding-top: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(243, 237, 160);
+} 
